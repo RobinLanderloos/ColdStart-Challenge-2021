@@ -25,6 +25,7 @@ export default {
     ...mapMutations(['preOrder']),
     onPreOrder() {
       this.preOrder(this.id);
+      alert('Order is being processed');
     },
   },
   computed: mapGetters(['isAuthenticated']),
