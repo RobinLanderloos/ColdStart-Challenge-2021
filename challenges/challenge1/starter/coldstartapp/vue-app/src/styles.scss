@@ -26,6 +26,10 @@ $navbar-item-img-max-height: 5rem;
 
 @import '~bulma/bulma.sass';
 
+.auth-link {
+  cursor: pointer;
+}
+
 .content-title-group {
   .button-group {
     display: grid;
