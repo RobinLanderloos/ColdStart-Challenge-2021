@@ -13,5 +13,15 @@ export default {
 </script>
 
 <template>
-  <div class="auth-link" @click="goAuth">Logout</div>
+  <div class="navbar-item" @click="goAuth">Logout</div>
 </template>
+
+<style scoped>
+  .navbar-item{
+    cursor: pointer;
+  }
+
+  .navbar-item:hover{
+    color: #33C5F3;
+  }
+</style>

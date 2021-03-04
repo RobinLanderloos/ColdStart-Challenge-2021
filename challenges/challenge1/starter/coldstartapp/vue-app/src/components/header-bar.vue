@@ -36,7 +36,7 @@ export default {
           <router-link class="navbar-item" to="/login">Login</router-link>
         </div>
         <div v-else>
-          <AuthLogout class="navbar-item" />
+          <AuthLogout />
         </div>
       </div>
     </nav>
